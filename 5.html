@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p style='text-decoration:underline'>Example for JavaScript Hoisting </p>
+    <p id="dispaly_num"></p>
+    <script>
+        first_num = 100; // Assign value 100 to num
+        elem = document.getElementById("dispaly_num");
+        elem.innerHTML = " Here the variable first_num:<u> " + first_num +
+            "</u> is taken to the top <br>" +
+            "Since second variable is initialised the value is not taken to the top and it's value is "
+            + "<u>" + second_num;
+        var first_num; // declaration only
+        var second_num = 200; // Initialised the variable
+    </script>
+</body>
+
+</html>
