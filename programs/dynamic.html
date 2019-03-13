@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <title>
+        static_page
+    </title>
+</head>
+<input type="text" placeholder="enter the session id " id="texts" value="session 10">
+<button onclick="invited()">Click Me</button>
+<p id="invite"> This is session 1 </p>
+<script>
+    function invited() {
+        document.getElementById("invite").innerText = document.getElementById("texts").value
+    }
+</script>
+
+</html>

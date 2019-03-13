@@ -1,0 +1,12 @@
+<script>
+    // To find the sum of two numbers using closure method
+    function sum(first_num, second_num) {
+        var sumStr = 600;
+        function add() {
+            console.trace(`${sumStr} ${first_num} ${second_num}`)
+            return (sumStr + (first_num + second_num));
+        }
+        return add();
+    }
+    document.write("Result is :" + sum(150, 350));
+</script>
