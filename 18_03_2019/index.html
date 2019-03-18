@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cloud Execution</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        thead {
+            color: grey;
+        }
+
+        tbody {
+            color: blue;
+        }
+
+        tfoot {
+            color: yellowgreen;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="display"></div>
+    <br>
+    <button onclick="display()">Display all</button>
+    <br>
+    <div >
+        <br>
+        <Label>ID</Label>:
+        <input type="text" id="userid">
+        <br>
+        <Label>Name</Label>:
+        <input type="text" id="username">
+        <br>
+        <Label>Interest</Label>:
+        <input type="text" id="userint">
+    </div>
+    <br>
+    <button onclick="insert()">Insert</button>
+
+<br><br>
+<input type="text" id ="search" placeholder="Enter id of the object">
+
+<button onclick="search()">Search</button>
+
+</body>
+
+<script src="index.js"></script>
+<script>
+    $(document).ready(function () {
+        display();
+    });
+</script>
+
+</html>
