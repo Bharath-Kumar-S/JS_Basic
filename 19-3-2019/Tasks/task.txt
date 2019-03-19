@@ -1,0 +1,59 @@
+1. On clicking a button display a image in the DOM only after 10 seconds.
+
+2. Create a prompt that accepts user age and display it in the alert box.Prompt should take a default value if no input is provided.
+
+3. Create a confirm window 
+
+      a).clicking OK should display one image 
+      b). clicking CANCEL should display another image
+
+4. Create a Object with properties fullname and lastname. Create getter and setter function for the object. 
+
+      a).getter should display the current fname and lname.
+      b).setter should assign new values to fname and lname.
+      
+5. Create a html page which can capture the mouse events on the page. You should have a <p></p> tag displaying the current mouse action.
+
+    a) click – when the mouse clicks on an element (touchscreen devices generate it on a tap).
+    b) contextmenu – when the mouse right-clicks on an element.
+    c) mouseover / mouseout – when the mouse cursor comes over / leaves an element.
+    d) mousedown / mouseup – when the mouse button is pressed / released over an element.
+    e) mousemove – when the mouse is moved.
+    
+6. Create a html page which can capture the form element events on the webpage.You should have a <p></p> tag displaying the current form action action.
+
+    a) submit – when the visitor submits a <form>.
+    b) focus – when the visitor focuses on an element, e.g. on an <input>.
+    c) keydown and keyup – when the user presses and then releases the button.
+    
+7. Example webpage to showcase cookie,session storage and local storage.
+
+8. Example website which uses try,catch and throw in the JS implementation.
+
+9. Array operations.
+
+  a.Create an array styles with items “HP” and “HPE”.
+  b.Append “EIT” to the end.
+  c.Replace the value in the middle by “DXC”. Your code for finding the middle value should work for any arrays with odd length.
+  d.Strip off the first value of the array and show it.
+  e.Prepend HP and HPE to the array.
+  f.The array in the process:
+
+expected output:
+  HP, HPE  
+  HP, HPE, EIT
+  HP, DXC, EIT
+  DXC, EIT
+  HP, HPE , DXC, EIT
+
+10. Array iteration.
+
+  Create a numeric array of 15 indexes.
+  
+  a).Use all the available conditional and iteration loops to print the sum of all elements in the array
+  b). Find the least element and the greatest element in the array.
+  c). Sort the elements in the array asc and dec order.
+  
+  Note: No inbuild function should be used.
+  
+  
