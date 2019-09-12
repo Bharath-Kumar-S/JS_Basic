@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>JobHub</title>
+    <title>Cognitive solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -23,24 +23,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage">JobHub</a>
+                <a class="navbar-brand" href="#myPage">Cognitive solutions</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <li><a href="#myPage">Admin Login</a></li> -->
                     <li><a href="#login">User Login</a></li>
-                    <li><a href="SignUp.html">Sign Up</a></li>
-                    <!-- <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Job Details
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Add Job Details</a></li>
-                            <li><a href="#">Prefered CVS</a></li>
-                            <li><a href="#">Requirement Details</a></li>
-                            <li><a href="#">Shortlist CV</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li> -->
                 </ul>
             </div>
         </div>
@@ -94,12 +81,9 @@
         </a>
     </div>
 
-
-
-
     <div id="login" class="container text-center">
-        <h3>JobHub</h3>
-        <p><em>The Place for your Ideal JOB</em></p>
+        <h3>Cognitive Solution</h3>
+        <p><em>The Next-gen automation </em></p>
         <p>Feel free to Login</p>
     </div>
     <div class="row slideanim col-md-offset-4">
@@ -111,52 +95,33 @@
                 <label for="psw">Password</label> <input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control" id="pass"
                     placeholder="Enter password"><br>
                 <!-- <br> -->
-                <button class="btn pull-left" onclick="sign()">Login</button>
+                <button class="btn pull-left">Login</button>
                 <br><br>
-                <p> Not a member ???  <a href="SignUp.html">Sign Up</a> </p> 
             </div>
         </div>
     </div>
-
     <br>
-    <!-- Footer -->
     <footer class="text-center">
         <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a><br><br>
         <p>This is footer part <a href="#" data-toggle="tooltip" title="Visit w3schools">Click Me</a></p>
     </footer>
-
-    <script src="index.js"></script>
     <script>
-        $(document).ready(function () {
-            // Initialize Tooltip
-            $('[data-toggle="tooltip"]').tooltip();
-
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        })
+        // $(document).ready(function () {
+        //     $('[data-toggle="tooltip"]').tooltip();
+        //     $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+        //         if (this.hash !== "") {
+        //             event.preventDefault();
+        //             var hash = this.hash;
+        //             $('html, body').animate({
+        //                 scrollTop: $(hash).offset().top
+        //             }, 900, function () {
+        //                 window.location.hash = hash;
+        //             });
+        //         }
+        //     });
+        // })
     </script>
 
 </body>
